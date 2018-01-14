@@ -1,0 +1,24 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'maven'
+
+group = 'com.puzzletimer'
+version = '0.11.0'
+
+description = """"""
+
+sourceCompatibility = 1.9
+targetCompatibility = 1.9
+
+repositories {
+     maven { url "https://jitpack.io" }
+     maven { url "http://repo.maven.apache.org/maven2" }
+}
+dependencies {
+    compile group: 'com.github.daveallie', name: 'prisma-graphics', version:'1.0.1'
+    compile group: 'com.h2database', name: 'h2', version:'1.3.176'
+    compile group: 'com.miglayout', name: 'miglayout', version:'3.7.3.1'
+    compile group: 'org.json', name: 'json', version:'20141113'
+    compile group: 'com.github.daveallie', name: 'tnoodle-scrambles', version:'0.10.0'
+}
+mainClassName = 'com.puzzletimer.Main'
