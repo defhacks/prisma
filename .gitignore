@@ -5,6 +5,9 @@
 .metadata
 .classpath
 
+## Gradle
+.gradle/
+
 ## Directory-based project format:
 .idea/
 .settings/
