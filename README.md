@@ -1,5 +1,6 @@
 # Prisma
 
+![](https://travis-ci.org/defhacks/prisma.svg?branch=master)
 #### Currently not in active development, feel free to fork or submit a pull request
 
 An updated version of the well-known Prisma puzzle timer.
